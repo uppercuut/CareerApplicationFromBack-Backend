@@ -5,14 +5,13 @@
 Link to the Database 
 https://drive.google.com/file/d/1IHSn7F2UoBlAIOMznO1QdCiTf5aXMWxQ/view?usp=sharing
 
--due to many using of "Magic string" in umbraco to Get document type alias or set value ot get every variable is set in the web.config
-to get more controll over the project.
+-due to many using of "Magic string" in umbraco all of them are saved in the web.config to gain more controll over the project.
 
 -Mailling Services credentials are in the web.config.
 
 -The new two custom buttons to (sendmMail and export ro excel) are exposed to the admins only.
-
 click here to see where the custom buttons are placed https://drive.google.com/file/d/1eU2pU7HbBIeNvEQfD4XlSJJniUJ8gLei/view?usp=sharing
+ they are registered on application started event. in custom CustomSettings folder.
 
 AdminstratorLogin:UserName :info@Dopravo.com Password:Admin12345678
 
