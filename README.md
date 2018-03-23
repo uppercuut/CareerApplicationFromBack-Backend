@@ -5,12 +5,12 @@
 Link to the Database 
 https://drive.google.com/file/d/1IHSn7F2UoBlAIOMznO1QdCiTf5aXMWxQ/view?usp=sharing
 
-the  current conniction string is you may change it on your needs
+the  current connection string is you may change it on your needs
 
     <add name="umbracoDbDSN" connectionString="Server=LocalHost\SQLEXPRESS;Database=CareerApplicationFormDB;Integrated Security=true" providerName="System.Data.SqlClient" />
  
 
--due to many using of "Magic string" in umbraco all of them are saved in the web.config to gain more controll over the project.
+-due to many using of "Magic string" in umbraco all of them are saved in the web.config to gain more control over the project.
 
 -Mailling Services credentials are in the web.config.
 
