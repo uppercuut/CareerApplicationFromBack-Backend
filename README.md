@@ -10,7 +10,7 @@ to get more controll over the project.
 
 -Mailling Services credentials are in the web.config.
 
--The new two custom buttons to SendmMail and To export are exposed to the admins only.
+-The new two custom buttons to (sendmMail and export ro excel) are exposed to the admins only.
 
 click here to see where the custom buttons are placed https://drive.google.com/file/d/1eU2pU7HbBIeNvEQfD4XlSJJniUJ8gLei/view?usp=sharing
 
