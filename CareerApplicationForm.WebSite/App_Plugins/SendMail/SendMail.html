@@ -1,0 +1,66 @@
+﻿<div ng-controller="SendMail" id="DuplicateNodeControl">
+
+    <form ng-submit="uploadFile()">
+        <div class="umb-pane">
+            <umb-control-group label="Subject" description="">
+                <input type="text" class="umb-editor umb-textstring" ng-model="Email.subject"  />
+            </umb-control-group>
+            <umb-control-group label="CC" description="for multi Email addresses Coma seprated values: (info@example.com,info2@example.com,info3@example.com)">
+                <input type="text" class="umb-editor umb-textstring" ng-model="Email.CC" />
+            </umb-control-group>
+            <umb-control-group label="BCC" description="for multi Email addresses Coma seprated values: (info@example.com,info2@example.com,info3@example.com)">
+                <input type="text" class="umb-editor umb-textstring" ng-model="Email.BCC" />
+            </umb-control-group>
+            <umb-control-group label="Attatment" description="Send files with the email">
+                <input type="file" class="umb-editor umb-textstring" ngf-select="" ng-model="Email.file" />
+            </umb-control-group>
+            <ng-form>
+                <label>E-Mail Body</label>
+                <umb-editor model="myProperty"   > </umb-editor>
+            </ng-form>
+
+            <div class="umb-tab-buttons" detect-fold>
+                <div class="btn-group" style="padding-left:0!important">
+                    <button type="button" class="btn btn-link ng-scope" ng-click="nav.hideDialog()">
+                        Cancel
+                    </button>
+                    <button type="submit" class="btn btn-success" style="margin-top:5px;">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+
+
+    <!--<umb-control-group label="File" description="File to upload">
+        <input type="file" class="umb-editor umb-textstring" ngf-select="" ng-model="files" ng-multiple="false" ngf-change="fileSelected(files)" required />
+    </umb-control-group>
+    <umb-control-group label="File" description="File to upload">
+        <textarea type="text" class="umb-editor umb-textstring"></textarea>
+    </umb-control-group>
+
+
+
+
+    <ng-form>
+        <umb-editor model="myProperty"></umb-editor>
+    </ng-form>
+
+
+
+
+    <div class="umb-tab-buttons" detect-fold>
+        <div class="btn-group">
+            <button type="button" data-hotkey="ctrl+s" class="btn btn-success" ng-click="uploadFile()">
+                Upload
+            </button>
+        </div>
+    </div>
+</div>
+</div>-->
+
+
+

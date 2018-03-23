@@ -1,0 +1,18 @@
+﻿<div ng-controller="Export" id="DuplicateNodeControl">
+
+
+    <form method="post" action="/umbraco/surface/ExportToExcel/Export">
+        <div class="umb-pane">
+            <h5>Are you Sure?</h5>
+            <div class="umb-dialog-footer btn-toolbar umb-btn-toolbar">
+                <!-- ngIf: !busy --><a class="btn btn-link ng-scope" ng-click="nav.hideDialog()">
+                    Cancel
+                </a>
+               <input type="submit" class="btn btn-primary" value=" Export As Excel" />
+                   
+           
+            </div>
+        </div>
+    </form>
+
+</div>

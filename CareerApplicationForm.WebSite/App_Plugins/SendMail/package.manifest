@@ -1,0 +1,12 @@
+﻿{
+    //array of files we want to inject into the application on app_start
+    javascript: [
+
+        '~/App_Plugins/SendMail/SendMail.controller.js',
+		'~/App_Plugins/SendMail/file.upload.api.service.js',
+		 '~/Scripts/ng-file-upload-all.js'
+    ],
+	css:[
+		'~/App_Plugins/SendMail/SendMail.css'
+	]
+}

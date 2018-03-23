@@ -1,0 +1,14 @@
+﻿/* margin-left: 240px; */
+.controls-row {
+    margin-left: 0px!important;
+}
+.umb-notifications {
+    z-index: 10000000000000000;
+}
+
+    @media(min-width: 768px) {
+
+        .umb-tab-buttons {
+            padding-left: 0px;
+        }
+    }
